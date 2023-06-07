@@ -5,7 +5,7 @@ const router = Router();
 export default router;
 
 function Router() {
-    const router = new createRouter({
+    const router = createRouter({
         history: createWebHistory(),
         routes,
     });
